@@ -1,0 +1,54 @@
+body,html{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+p{
+  position:absolute;
+  top:0;
+  left:0;
+  transition: 1s all ease;
+}
+.one, .three, .five, .seven{
+  left:-2000px;
+  width:100%;
+  height:20vh;
+  background:#ddd;
+}
+.two{
+  top: 100px;
+}
+.three{
+  top:200px;
+}
+.four{
+  top: 300px;
+}
+.five{
+  top: 400px;
+}
+.six{
+  top: 500px;
+}
+.seven{
+  top: 600px;
+}
+.two, .four, .six{
+  width:100%;
+  height:20vh;
+  background:red;
+  left:2000px;
+}
+.move{
+  transition: 1s all ease;
+  left: 0px;
+} 
